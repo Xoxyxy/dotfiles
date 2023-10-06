@@ -9,6 +9,7 @@ require'window-picker'.setup({
     },
     other_win_hl_color = '#e35e4f'
 })
+
 vim.cmd([[ let g:neo_tree_remove_legacy_commands = 1 ]])
 
 vim.fn.sign_define("DiagnosticSignError",
@@ -20,4 +21,10 @@ vim.fn.sign_define("DiagnosticSignInfo",
 vim.fn.sign_define("DiagnosticSignHint",
                    {text = "", texthl = "DiagnosticSignHint"})
 
-require("neo-tree").setup({})
+require("neo-tree").setup({
+  filesystem = {
+    filtered_items = {
+      visible = true
+    }
+  }
+})

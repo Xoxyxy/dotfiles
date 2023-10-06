@@ -6,18 +6,18 @@ null_ls.setup({
         null_ls.builtins.formatting.eslint_d.with { filetypes = {
             "typescript",
             "javascript",
-            -- "typescriptreact",
-            -- "javascriptreact"
+            "typescriptreact",
+            "javascriptreact",
+            "vue"
         } },
         null_ls.builtins.formatting.lua_format,
         null_ls.builtins.diagnostics.eslint_d,
         null_ls.builtins.formatting.stylua,
+        null_ls.builtins.completion.spell,
         null_ls.builtins.diagnostics.ltrs,
-        null_ls.builtins.formatting.rustfmt,
         null_ls.builtins.formatting.prettierd.with { filetypes = {
         "css",
         "scss",
-        "less",
         "html",
         "json",
         "jsonc",
@@ -29,8 +29,8 @@ null_ls.setup({
         "javascript",
         "typescript",
         "typescriptreact",
-        "lua",
-        "javascriptreact"
+        "javascriptreact",
+        "vue"
     },
 }
     },
@@ -47,7 +47,6 @@ null_ls.setup({
 							return client.name == "null-ls"
 						end
 					 })
-                    -- vim.lsp.buf.formatting_sync()
                 end,
             })
         end
