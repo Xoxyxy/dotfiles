@@ -21,3 +21,5 @@
 |                Nvim + tmux                 |
 | :----------------------------------------: |
 | ![neofetch-screen](assets/nvim-screen.png) |
+
+# Configs will be soon...
