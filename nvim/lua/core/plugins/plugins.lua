@@ -9,6 +9,7 @@ end
 
 vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
+    {"norcalli/nvim-colorizer.lua"},
     {"Exafunction/codeium.vim", event = "BufEnter"},
     {"rebelot/kanagawa.nvim"},
     {"nvim-treesitter/nvim-treesitter"},

@@ -14,6 +14,7 @@ lspconfig.emmet_ls.setup {
 }
 lspconfig.lua_ls.setup {}
 lspconfig.vls.setup {}
+lspconfig.dockerls.setup {}
 
 -- Global mappings.
 vim.keymap.set('n', '<leader>lD', vim.diagnostic.open_float)
