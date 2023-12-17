@@ -1,25 +1,38 @@
 # Dotfiles
 
-- **Distro**: Arch Linux
+- **OS**: Arch Linux
 - **WM**: Hyprland
-- **Bar**: eww
 - **Shell**: Zsh
 - **Terminal**: Kitty
-- **Editor**: Nvim
-- **Fonts**: JetBrainsMono Nerd Font, UbuntuMono Nerd Font
+- **Editor**: Neovim/Nvchad
+- **File Manager**: Dolphin
+- **Browser**: Firefox
+- **Theme**: Catppuccin Mocha
+- **Icons**: Tela circle dracula
+- **Fonts**: UbuntuMono Nerd Font, JetBrainsMono Nerd Font
 
 # Gallery
 
-|               Wallpaper                |
-| :------------------------------------: |
-| ![wall-screen](assets/wall-screen.png) |
+|           Wallpaper           |
+| :---------------------------: |
+| ![wallpaper](assets/wall.png) |
 
-|                    Neofetch                    |
-| :--------------------------------------------: |
-| ![neofetch-screen](assets/neofetch-screen.png) |
+|              Neovim + Neofetch + Tmux               |
+| :-------------------------------------------------: |
+| ![neofetch_nvim_tmux](assets/neofetch_and_nvim.png) |
 
-|                Nvim + tmux                 |
-| :----------------------------------------: |
-| ![neofetch-screen](assets/nvim-screen.png) |
+|           Rofi           |
+| :----------------------: |
+| ![rofi](assets/rofi.png) |
 
-# Configs will be soon...
+|            Dolphin             |
+| :----------------------------: |
+| ![dolphin](assets/dolphin.png) |
+
+# Configs:
+
+- [ ] Hyprland
+- [ ] Rofi
+- [x] Kitty
+- [ ] Nvchad
+- [x] Tmux
