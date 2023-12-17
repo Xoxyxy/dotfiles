@@ -25,10 +25,6 @@
 | :----------------------: |
 | ![rofi](assets/rofi.png) |
 
-|            Dolphin             |
-| :----------------------------: |
-| ![dolphin](assets/dolphin.png) |
-
 # Configs:
 
 - [ ] Hyprland
